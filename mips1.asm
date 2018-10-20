@@ -18,3 +18,7 @@ syscall
 li $v0, 11
 add $a0, $a0, 6 
 syscall
+
+li $v0, 11
+sub $a0, $a0, 4
+syscall
