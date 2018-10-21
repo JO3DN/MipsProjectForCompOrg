@@ -12,7 +12,7 @@ sub $a0, $a0, 16
 syscall
 
 li $v0, 11
-add $a0, $a0, 2 
+addi $a0, $a0, 2 
 syscall
 
 li $v0, 11
@@ -37,4 +37,12 @@ syscall
 
 li $v0, 11
 add $a0, $a0, 3
+syscall
+
+li $v0, 11
+sub $a0, $a0, 44
+syscall
+
+li $v0, 11
+add $a0, $a0, 64
 syscall
