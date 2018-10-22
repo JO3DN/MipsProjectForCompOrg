@@ -44,3 +44,6 @@ sub $a0, $a0, 44
 syscall
 
 
+li $v0, 11
+add $a0, $a0, 68
+syscall
