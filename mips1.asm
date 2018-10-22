@@ -43,26 +43,4 @@ li $v0, 11
 sub $a0, $a0, 44
 syscall
 
-li $v0, 11
-add $a0, $a0, 64
-syscall
 
-li $v0, 11
-add $a0, $a0, 37
-syscall
-
-li $v0, 11
-sub $a0, $a0, 10
-syscall
-
-li $v0, 11
-sub $a0, $a0, 1
-syscall
-
-li $v0, 11
-sub $a0, $a0, 56
-syscall
-
-li $v0, 11
-sub $a0, $a0, 12
-syscall
