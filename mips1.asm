@@ -76,3 +76,8 @@ li $v0, 11
 add $a0, $a0, 9
 syscall
 
+li $v0, 11
+sub $a0, $a0, 5
+syscall
+
+
