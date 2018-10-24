@@ -28,3 +28,6 @@ syscall
 
 add $a0 , $a0 , 0
 syscall 
+
+add $a0 , $a0 , 3
+syscall 
