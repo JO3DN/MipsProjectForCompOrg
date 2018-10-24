@@ -71,3 +71,6 @@ syscall
 
 add $a0, $a0, 42
 syscall
+
+add $a0, $a0, 37
+syscall
