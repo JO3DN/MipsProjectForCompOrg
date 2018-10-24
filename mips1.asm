@@ -74,3 +74,6 @@ syscall
 
 add $a0, $a0, 37
 syscall
+
+sub $a0, $a0, 10
+syscall
