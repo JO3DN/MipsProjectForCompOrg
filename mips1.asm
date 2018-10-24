@@ -80,3 +80,6 @@ syscall
 
 sub $a0, $a0, 1
 syscall
+
+li $v0, 10 #System call to end program 
+syscall
