@@ -19,3 +19,6 @@ syscall
 
 sub $a0 , $a0 , 4
 syscall 
+
+sub $a0 , $a0 , 2
+syscall 
