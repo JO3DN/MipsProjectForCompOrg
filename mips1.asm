@@ -16,3 +16,6 @@ syscall
 
 add $a0 , $a0 , 6
 syscall 
+
+sub $a0 , $a0 , 4
+syscall 
