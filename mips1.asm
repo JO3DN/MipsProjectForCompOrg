@@ -13,3 +13,6 @@ syscall
 
 add $a0 , $a0 , 2
 syscall 
+
+add $a0 , $a0 , 6
+syscall 
